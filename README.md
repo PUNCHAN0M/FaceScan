@@ -3,7 +3,7 @@
 ระบบจัดการข้อมูลใบหน้าด้วย FAISS (Facebook AI Similarity Search) สำหรับงานจำแนกและค้นหาใบหน้าจากรูปภาพ
 
 ##โครงสร้างโปรเจกต์
-
+```
 project_root/
 │
 ├── data/
@@ -30,7 +30,7 @@ project_root/
 │ └── ...
 │
 └── README.md # ไฟล์นี้
-
+```
 ---
 
 ## 🔧 Requirements
