@@ -1,0 +1,30 @@
+# Ignore specific data folders
+/data/faiss_Store
+/data/person_img
+/data/img_update
+
+# Also ignore Python virtual environments
+/venv
+/.venv
+/env
+/__pycache__
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Ignore PyCharm / VSCode project files
+.idea/
+.vscode/
+*.iml
+*.sublime-project
+*.sublime-workspace
+
+# Ignore model files or large binaries (optional)
+*.pt
+*.pth
+*.onnx
+*.weights
