@@ -8,8 +8,8 @@ project_root/
 │
 ├── data/
 │ └── faiss_Store/
-│ ├── index.faiss # ไฟล์ FAISS สำหรับเก็บเวกเตอร์ของใบหน้า
-│ └── index.pkl # ไฟล์ pickle เก็บ metadata เช่น mapping ของชื่อบุคคลกับเวกเตอร์
+│   ├── index.faiss # ไฟล์ FAISS สำหรับเก็บเวกเตอร์ของใบหน้า
+│   └── index.pkl # ไฟล์ pickle เก็บ metadata เช่น mapping ของชื่อบุคคลกับเวกเตอร์
 │
 ├── person_img/ # โฟลเดอร์รูปภาพสำหรับสร้าง FAISS (ใช้ครั้งแรกเท่านั้น)
 │ ├── name1/
