@@ -333,10 +333,10 @@ if __name__ == "__main__":
     db_manager = FaceVectorDatabase()
 
     # สร้าง FAISS database empty รอ add หน้าใหม่
-    db_manager.create_empty_faiss()
+    # db_manager.create_empty_faiss()
 
     # สร้าง FAISS database จากภาพใน person_img/
-    # db_manager.build_faiss()
+    db_manager.build_faiss()
 
     # อัปเดตฐานข้อมูลจาก person_img_update/
     # db_manager.update_faiss()
